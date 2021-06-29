@@ -41,7 +41,7 @@ section {
   background-image: url("./images/bg-pattern-top-mobile.svg"),
     url("./images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat;
-  background-position: top 0 left 0, right 0 bottom 0; 
+  background-position: top 0 left 0, right 0 bottom 0;
 }
 /* Product statement styles: */
 .product-stmt {
@@ -148,7 +148,8 @@ section {
 /* Styles for larger screens */
 @media (min-width: 1430px) {
   .container {
-    max-width: 1068px;
+    width: 100%;
+    max-width: 1268px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "product-statement ratings" "reviews reviews";
     grid-template-rows: 20fr 25fr; /* to provide enough height for the reviews row to give each different heights */
